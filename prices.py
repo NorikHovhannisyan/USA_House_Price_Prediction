@@ -9,7 +9,7 @@ with open('house_model.pkl', 'rb') as file:
 with open('features.pkl', 'rb') as file:
     features = pickle.load(file)
     
-st.image("https://media.istockphoto.com/id/684098860/photo/flags-1.jpg?s=2048x2048&w=is&k=20&c=4ij9JWsiF9f61aZUv7arfbvcY-WoLGQEUqOXaTDfe_k=", 
+st.image("https://assets-news.housing.com/news/wp-content/uploads/2021/11/12005706/American-House-Designs-shutterstock_473306311-1200x700-compressed.jpg", 
          caption="Modern Real Estate Analytics", 
          use_container_width=True)
 
