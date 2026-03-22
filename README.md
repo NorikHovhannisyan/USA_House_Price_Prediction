@@ -41,5 +41,5 @@ To run this project locally, follow these steps:
 ## 📝 Author
 Norik Hovhannisyan
 
-[LinkedIn]: [https://www.linkedin.com/in/norik-hovhannisyan-780130323/]
+[LinkedIn: ](https://www.linkedin.com/in/norik-hovhannisyan-780130323/)
 
