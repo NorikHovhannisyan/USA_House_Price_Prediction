@@ -3,7 +3,7 @@
 An interactive web application that predicts real estate prices in the United States using Machine Learning. This project demonstrates a full-stack Data Science workflow: from data cleaning and feature engineering to model deployment.
 
 ## 🚀 Live Demo
-[Insert your Streamlit Cloud Link Here After Deployment]
+[Streamlit Cloud link: ](https://usa-housing-predictor.streamlit.app/)
 
 ## 📊 Project Overview
 The goal of this project is to provide accurate house price estimates based on key features like location, living space, and local socio-economic data. 
