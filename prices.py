@@ -9,6 +9,10 @@ with open('house_model.pkl', 'rb') as file:
 with open('features.pkl', 'rb') as file:
     features = pickle.load(file)
     
+st.image("https://images.unsplash.com/photo-1582408921715-18e7806365c1?auto=format&fit=crop&w=1000&q=80", 
+         caption="Modern Real Estate Analytics", 
+         use_container_width=True)
+
 st.title('Prediction of American houses🏠')
 st.write('Fill in the data to see the XGBoost model prediction.')
 
@@ -25,7 +29,7 @@ with col2:
     baths = st.number_input('🚿Baths', value = 2)
     income = st.number_input('💰Median Household Income', value = 104000)
     density = st.number_input('🏙️Zip Code Density', value = 2200)
-    room = st.number_input('Space_per_Room', value = 320)
+    room = st.number_input('Space per Room', value = 320)
 
 st.sidebar.header('📍 Location Details')
 lat = st.sidebar.slider('Latitude', 24.0, 50.0, 36.48)
